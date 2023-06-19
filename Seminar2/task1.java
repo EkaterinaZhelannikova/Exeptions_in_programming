@@ -17,9 +17,9 @@ public class task1 {
 
     public static float inputNumber() {
         try {
-            Scanner x = new Scanner(System.in);
+            Scanner inputScanner = new Scanner(System.in);
             System.out.println("Введите дробное число:");
-            float num = x.nextFloat();
+            float num = inputScanner.nextFloat();
             System.out.println(num);
             return num;
         } catch (Exception e) {
